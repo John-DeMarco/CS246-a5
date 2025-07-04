@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: build active file",
+            "command": "~/cs246/1255/tools/compile",
+            "args": [
+                "order.txt",
+                "exec"
+            ],
+            "group": {
+            "kind": "build",
+            "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
